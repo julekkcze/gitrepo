@@ -5,12 +5,15 @@
 
 
 def main(args):
-    #a = 10
-    a = input ("Podaj liczbę:")
-    #b = 5
-    b = input ("Podaj liczbę:")
-    suma = a + b
-    print(suma)
+    a = int(input ("Podaj liczbę: "))
+    b = int(input ("Podaj liczbę: "))
+    
+    if a > b:
+        print("a > b")
+    elif b < a:
+        print ("b < a")
+    else: 
+        print("a = b")
     return 0
 
 if __name__ == '__main__':
